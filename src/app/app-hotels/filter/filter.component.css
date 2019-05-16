@@ -1,0 +1,43 @@
+.filter-container {
+  background-color: #fff;
+}
+
+.filter {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.filter-title {
+  padding-top: 3px;
+  color: gray;
+}
+
+.filter li {
+  margin: 0 5px;
+}
+
+.filter a {
+  position: relative;
+  min-width: auto;
+  padding: 0 5px;
+  color: gray;
+  line-height: 2;
+  text-decoration: none;
+}
+
+.filter a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.stars {
+  font-size: 10px;
+  width: auto;
+  height: auto;
+  color: gold;
+}

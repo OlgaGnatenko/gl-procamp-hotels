@@ -1,0 +1,15 @@
+<mat-card class="profile-card text-center p-0">
+    <h5 class="pt-3 px-3">Social Profile</h5>
+    <hr>
+    <img class="border rounded-circle mb-4" mat-card-md-image src="{{profile?.photo}}" alt="Photo of profile">
+    <div class="profile-body p-3">
+        <div class="profile-data">
+            <span class="number">{{profile?.followers}}</span>
+            <span>Followers</span>
+        </div>
+        <div class="profile-data">
+            <span class="number">{{profile?.following}}</span>
+            <span>Following</span>
+        </div>
+    </div>
+</mat-card>

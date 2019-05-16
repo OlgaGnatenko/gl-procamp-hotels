@@ -1,0 +1,39 @@
+<ng-template [ngIf]="hotels" [ngIfElse]="placeholder">
+  <div class="container mb-3">
+    <span>{{ hotelsI | json }}</span>
+    <div class="row">
+      <div class="col-md-4">
+        <app-list
+          [hotels]="hotels"
+          (selectedHotel)="selectHotel($event)"
+        ></app-list>
+      </div>
+      <div class="col-md-4">
+        <app-weather [hotel]="selectedHotel"></app-weather>
+        <app-profile [profile]="selectedHotel?.profile"></app-profile>
+      </div>
+      <div class="col-md-4">
+        <div class="selected-hotel-info">
+          <h5>
+            Selected Hotel:
+            <ng-template [ngIf]="selectedHotel" [ngIfElse]="noSelectedHotel">
+              <a [routerLink]="['/hotel-detail', selectedHotel.id]"
+                >{{ selectedHotel?.title }}
+              </a>
+            </ng-template>
+          </h5>
+          <img src="{{ selectedHotel?.picture }}" alt="Selected Hotel Image" />
+          <p>{{ selectedHotel?.description }}</p>
+        </div>
+        <app-favorites></app-favorites>
+      </div>
+    </div>
+  </div>
+</ng-template>
+<ng-template #noSelectedHotel>
+  <span>There are no selected hotels</span>
+</ng-template>
+
+<!-- <ng-template #placeholder>
+  PLACEHOLDER
+</ng-template> -->

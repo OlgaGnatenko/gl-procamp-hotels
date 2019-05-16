@@ -1,0 +1,51 @@
+<mat-card class="example-card">
+  <mat-card-actions>
+    <app-pagination></app-pagination>
+
+    <app-search (searchByTitle)="searchByTitle($event)"></app-search>
+    <app-filter (starsFilter)="starsFilter($event)"></app-filter>
+    <div class="result-list">
+      <div class="list-holder">
+        <ul class="list list-unstyled text-white">
+          <li
+            *ngFor="let hotel of hotels; let odd = odd"
+            (click)="selectHotel(hotel)"
+            [ngClass]="{ odd: odd }"
+          >
+            <div class="hotel-desc">
+              <h5>
+                <a [routerLink]="['/hotel-detail', hotel.id]">{{
+                  hotel.title
+                }}</a>
+              </h5>
+              <p>{{ hotel.description }}</p>
+              <p>{{ hotel.address }}</p>
+              <p>
+                Phone: <a href="tel:{{ hotel.phone }}">{{ hotel.phone }}</a>
+              </p>
+            </div>
+            <div class="hotel-img">
+              <button
+                class="mat-icon-button"
+                (click)="makeFavorite(hotel)"
+              >
+                <i class="material-icons">
+                  favorite_border
+                </i>
+              </button>
+              <ul class="list-unstyled d-flex mb-4">
+                <li class="mr-2">
+                  <img
+                    class="rounded-circle"
+                    src="{{ hotel.photos[0] }}"
+                    alt="{{ hotel?.title }} Photo"
+                  />
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </mat-card-actions>
+</mat-card>

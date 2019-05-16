@@ -1,0 +1,19 @@
+<div class="pagination">
+  <button
+    mat-button
+    class="col-sm-4"
+    (click)="getPreviousPage($event)"
+    [disabled]="!canCallPrevious"
+  >
+    <mat-icon>navigate_before</mat-icon> Prev 3
+  </button>
+  <span class="col-sm-4"></span>
+  <button
+    mat-button
+    class="col-sm-4"
+    (click)="getNextPage($event)"
+    [disabled]="!canCallNext"
+  >
+    Next 3 <mat-icon>navigate_next</mat-icon>
+  </button>
+</div>

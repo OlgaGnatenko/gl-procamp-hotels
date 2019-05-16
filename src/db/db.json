@@ -1,0 +1,307 @@
+{
+  "hotels": [
+    {
+      "id": 0,
+      "title": "Country Inn & Suites by Radisson, State College",
+      "address": "1357 East College Avenue, 16801, State College, USA",
+      "description": "Placing residents within a short driving distance of Penn State University and featuring budget-oriented service, Country Inn & Suites State College provides many amenities for its guests.",
+      "phone": "+1-202-555-0145",
+      "picture": "https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,f_auto,h_450,q_auto,w_450/itemimages/20/53/2053075_v1.jpeg",
+      "photos": [
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_470,q_auto,w_805/partnerimages/30/89/308962760.jpeg"
+      ],
+      "weather": {
+        "temperature": 32,
+        "wind": 9,
+        "icon": "sun"
+      },
+      "profile": {
+        "followers": 100,
+        "following": 150,
+        "photo": "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_470,q_auto,w_805/partnerimages/12/65/126587244.jpeg"
+      },
+      "stars": 3,
+      "comments": [
+        {
+          "author": "Nick",
+          "date": "2019-09-19",
+          "comment": "It was wonderful stay. The front desk lady was very nice. We love to stay here again next time."
+        },
+        {
+          "author": "Happy customer",
+          "date": "2019-03-04",
+          "comment": "It was a very nice stay. The staff was very friendly. Would have no problem staying there again."
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Hilton Pyramids Golf",
+      "address": "Al Wahat Road, Dream Land 6th of October City, 2500, 6th of October City, Egypt",
+      "description": "Nice layout, cheerful and helpful staff. Rooms needs to updated, cleanliness need to be elevated. Breakfast is very nice and the chefs are very nice",
+      "phone": "+1-202-555-0170",
+      "picture": "https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,f_auto,h_450,q_auto,w_450/itemimages/55/28/55288_v2.jpeg",
+      "photos": [
+        "https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,f_auto,h_450,q_auto,w_450/itemimages/55/28/55288_v2.jpeg"
+      ],
+      "weather": {
+        "temperature": 35,
+        "wind": 1,
+        "icon": "sun"
+      },
+      "profile": {
+        "followers": 565,
+        "following": 72,
+        "photo": "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_470,q_auto,w_805/partnerimages/36/11/361149048.jpeg"
+      },
+      "stars": 5,
+      "comments": [
+        {
+          "author": "Mohammed Ali Ismail",
+          "date": "2019-03-06",
+          "comment": "I stayed there twice and both of them were quite lovely. Everything was amazing and we enjoyed our stay so much. All the staff are kind, supportive and helpful. The downside was the outdated rooms which I think needs to be re-innovated. I recommend if you are looking for a hotel stay in the area."
+        },
+        {
+          "author": "Yasser",
+          "date": "2014-08-11",
+          "comment": "Good place to relax Nice pool Tasty food Large tv, radio available But a little high price than peers."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Kempinski Soma Bay",
+      "address": "Soma Bay P.O. Box: 15, 84711, Soma Bay, Egypt",
+      "description": "Situated in Egypt’s Red Sea coast, Kempinski Soma Bay is handled by Europe’s most experienced hotel group. This luxurious five-star hotel takes pride in its numerous pools set above natural bodies of water. Furthermore, Tobia Arbaa Dive Site is only a five-minute walk from the establishment.",
+      "phone": "+1-202-555-0183",
+      "picture": "https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,f_auto,h_450,q_auto,w_450/itemimages/95/92/959253_v4.jpeg",
+      "photos": [
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_470,q_auto,w_805/partnerimages/29/27/292769636.jpeg"
+      ],
+      "weather": {
+        "temperature": 18,
+        "wind": 5,
+        "icon": "cloud"
+      },
+      "profile": {
+        "followers": 293,
+        "following": 55,
+        "photo": "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_470,q_auto,w_805/uploadimages/11/98/11982158.jpeg"
+      },
+      "stars": 5,
+      "comments": [
+        {
+          "author": "John Week",
+          "date": "2018-12-09",
+          "comment": "Great place for relaxed holidays, extremely nice staff, terrific spa resort with sauna steam bath and jacucci, excellent food; disliked that the hotel administration changed some hotel room amenities after I had booked and prepaid the room like charging beverages from the minibar."
+        },
+        {
+          "author": "Traveler",
+          "date": "2018-10-31",
+          "comment": "Incredible hotel. Great location and even better staff! You will not be sorry staying here. From the moment you arrive to the time you depart every need is carefully and meticulously cared for. We can't wait to return."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Melia South Beach",
+      "address": "Avenida Notari Alemany, 1, 07181, Magaluf, Spain",
+      "description": "The stylish and exclusive ME Majorca hotel is a luxury destination that offers experiences customized to each visitor’s needs. It lies on the edge of Magaluf and twenty minutes away from the city airport and from Palma.",
+      "phone": "+1-202-555-0134",
+      "picture": "https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,f_auto,h_450,q_auto,w_450/itemimages/22/37/2237706_v5.jpeg",
+      "photos": [
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_470,q_auto,w_805/uploadimages/38/69/38698938.jpeg"
+      ],
+      "weather": {
+        "temperature": 25,
+        "wind": 1,
+        "icon": "sun"
+      },
+      "profile": {
+        "followers": 145,
+        "following": 90,
+        "photo": "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_470,q_auto,w_805/uploadimages/38/69/38698976.jpeg"
+      },
+      "stars": 4,
+      "comments": [
+        {
+          "author": "Rebecca Darling",
+          "date": "2018-11-09",
+          "comment": "This was a beautiful hotel! It was the best combination of quiet and party and closeness to amenities."
+        },
+        {
+          "author": "Domino Delarge",
+          "date": "2018-09-26",
+          "comment": "Huge rooms, great price and perfect location for nikki beach."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Radisson Blu Hotel, Kayseri",
+      "address": "Hunat Mahallesi Sivas Caddesi 24/1, 38000, Kayseri, Turkey",
+      "description": "Great Location near the Mall and other Shops and Restaurants. View from the higher floors are great. Breakfast has also typical choices.",
+      "phone": "+1-202-555-0168",
+      "picture": "https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,f_auto,h_450,q_auto,w_450/itemimages/28/85/2885656_v1.jpeg",
+      "photos": [
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_470,q_auto,w_805/partnerimages/28/64/286412470.jpeg"
+      ],
+      "weather": {
+        "temperature": 18,
+        "wind": 4,
+        "icon": "rain"
+      },
+      "profile": {
+        "followers": 1004,
+        "following": 255,
+        "photo": "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_470,q_auto,w_805/partnerimages/28/64/286412428.jpeg"
+      },
+      "stars": 5,
+      "comments": [
+        {
+          "author": "Aktug Esen",
+          "date": "2019-02-06",
+          "comment": "We stayed at the hotel as UN staff. The hotel staff acted like a security guard. Even though we drank alcohol without disturbing anyone, the hotel staff did not allow us to drink and behaved badly after 12pm."
+        },
+        {
+          "author": "Yasin Tek",
+          "date": "2019-01-09",
+          "comment": "Very nice. Very cheap. You can never have that kind of breakfast wherever you go in the world. For that money you can not not have even breakfast. Too many things around to see. The biggest mall if the city is 1 minute walking distance. It is in city centre. 10 minutes to airport by taxi. Perfect!!!"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Ramada Yalova",
+      "address": "4 Veni Bursa Yolu Caddesi, 77100, Yalova, Turkey",
+      "description": "Located in Yalova, 2.3 km from Yuruyen Kosk, Ramada Yalova features a terrace and sauna. The hotel has a fitness centre and hammam, and guests can enjoy a meal at the restaurant. Free WiFi is offered throughout the property and free private parking is available on site.",
+      "phone": "+1-202-555-0183",
+      "picture": "https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,f_auto,h_450,q_auto,w_450/itemimages/28/85/2885656_v1.jpeg",
+      "photos": [
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_470,q_auto,w_805/partnerimages/28/71/287124744.jpeg"
+      ],
+      "weather": {
+        "temperature": 22,
+        "wind": 2,
+        "icon": "cloud"
+      },
+      "profile": {
+        "followers": 775,
+        "following": 213,
+        "photo": "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_470,q_auto,w_805/uploadimages/24/28/24287056.jpeg"
+      },
+      "stars": 4,
+      "comments": [
+        {
+          "author": "Ahmed Moinuddin",
+          "date": "2019-02-06",
+          "comment": "We have stayed at this hotel on Dec 22-23, for one day with Family, guests friendly staff, quick check in. Lavish breakfast spread. Good location. Spacious rooms, like to stay next time we visit Yalova. Moinuddin Doha-Qatar."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Shangri-La's Hambantota Golf & Spa",
+      "address": "Sittrakala Watta, Chithragala, Ambalantota, , Hambantota, Sri Lanka",
+      "description": "Overlooking the pristine southern coast of beautiful Sri Lanka, Shangri-La's Hambantota Resort & Spa is located along the ancient Spice Route in a city steeped in rich history. Hambantota is known for its natural beauty and wildlife, and allows visitors to explore Asia’s most fascinating nature sanctuaries, including the Yala, Udawalawe, Lunugamvehera and Bundala National Parks.",
+      "phone": "+1-202-555-0145",
+      "picture": "https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,f_auto,h_450,q_auto,w_450/itemimages/68/56/6856538_v1.jpeg",
+      "photos": [
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_470,q_auto,w_805/partnerimages/22/87/228740876.jpeg"
+      ],
+      "weather": {
+        "temperature": 19,
+        "wind": 4,
+        "icon": "rain"
+      },
+      "profile": {
+        "followers": 200,
+        "following": 15,
+        "photo": "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_470,q_auto,w_805/uploadimages/22/22/22222136.jpeg"
+      },
+      "stars": 5,
+      "comments": [
+        {
+          "author": "Traveler",
+          "date": "2018-02-14",
+          "comment": "Traveler."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Hotel Cantaloupe Aqua",
+      "address": "Matara Road, Palutagaha Junction, Talpe, 80000, Galle, Sri Lanka",
+      "description": "A quiet oasis of serenity, the 18-room, 4-star Hotel Cantaloupe Aqua is a contemporary boutique hotel located 3.4-miles from Unawatuna Bay featuring stellar views of the Indian Ocean, a private beach access, spa services, an infinity swimming pool, free parking, and free Wi-Fi.",
+      "phone": "+1-202-555-0170",
+      "picture": "https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,f_auto,h_450,q_auto,w_450/itemimages/25/95/2595772_v2.jpeg",
+      "photos": [
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_470,q_auto,w_805/partnerimages/35/55/355509242.jpeg"
+      ],
+      "weather": {
+        "temperature": 23,
+        "wind": 0,
+        "icon": "sun"
+      },
+      "profile": {
+        "followers": 990,
+        "following": 240,
+        "photo": "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_470,q_auto,w_805/uploadimages/32/81/32810520.jpeg"
+      },
+      "stars": 3,
+      "comments": [
+        {
+          "author": "Sarath Wickramasinghe",
+          "date": "2019-02-17",
+          "comment": "Located at the tip of Southern coast, a fantastic sea view with breeze. One of the best hotels with good looking surroundings."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Yarra Valley Lodge",
+      "address": "2 Heritage Avenue, 3116, Yarra Glen, Australia",
+      "description": "Yarra Valley Lodge ideally located in the Yarra Valley amongst Victoria's source of indulgent sensations, Yarra valley Lodge is the ideal venue for your next corporate conference, meeting, event, wedding or product launch. The hotel offers the flexibility of 10 different event suites which can be tailored to suit every style of meeting or event.",
+      "phone": "+1-202-555-0183",
+      "picture": "https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,f_auto,h_450,q_auto,w_450/itemimages/10/20/102063_v2.jpeg",
+      "photos": [
+        "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_470,q_auto,w_805/uploadimages/11/22/11229767.jpeg"
+      ],
+      "weather": {
+        "temperature": 31,
+        "wind": 3,
+        "icon": "sun"
+      },
+      "profile": {
+        "followers": 1512,
+        "following": 419,
+        "photo": "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_470,q_auto,w_805/uploadimages/26/32/26320404.jpeg"
+      },
+      "stars": 4,
+      "comments": [
+        {
+          "author": "Elle Bee",
+          "date": "2019-02-20",
+          "comment": "This place is amazing. I took my son there for a bit of a mummy and me getaway for the night. The room was big enough to entertain my 3 yr old, the grounds are beautifully kept, the Kangaroos are beautiful to see just casually relaxing by the footpaths."
+        },
+        {
+          "author": "Shannon McMurray",
+          "date": "2019-02-27",
+          "comment": "Overall, definitely wouldn’t recommend but German kid in the restaurant was a good chap."
+        }
+      ]
+    }
+  ],
+  "favorites": [
+    {
+      "id": 1,
+      "title": "Hilton Pyramids Golf",
+      "stars": 5
+    },
+    {
+      "id": 2,
+      "title": "Kempinski Soma Bay",
+      "stars": 5
+    }
+  ]
+}

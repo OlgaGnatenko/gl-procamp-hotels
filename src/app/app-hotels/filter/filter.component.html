@@ -1,0 +1,22 @@
+<div class="filter-container">
+  <ul class="filter list-unstyled">
+    <li class="filter-title">STARS:</li>
+    <li *ngFor="let filterValue of filterOptions; let i = index">
+      <a
+        mat-button
+        href="#"
+        [attr.data-filtervalue]="i"
+        (click)="getFilterValue($event, $event.target)"
+      >
+        <span *ngIf="!i; else showStars">{{ filterValue }}</span>
+        <ng-template #showStars>
+          <mat-icon
+            class="stars"
+            *ngFor="let star of ' '.repeat(filterValue).split('')"
+            >star</mat-icon
+          >
+        </ng-template>
+      </a>
+    </li>
+  </ul>
+</div>

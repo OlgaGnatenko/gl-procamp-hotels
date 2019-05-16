@@ -1,0 +1,26 @@
+.weather-card {
+  margin: 0 auto;
+  max-width: 400px;
+  background-color: lightyellow;
+}
+
+.weather-body {
+  display: flex;
+  margin-top: 20px;
+}
+
+.weather-data,
+.weather-icon {
+  flex: 1 1 0;
+}
+
+.weather-data {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  font-size: 110%;
+}
+
+.weather-icon img {
+  width: 100%;
+}

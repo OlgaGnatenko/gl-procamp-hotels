@@ -1,0 +1,48 @@
+.hotel-info {
+  padding: 0 25px;
+}
+
+.detail-list {
+  list-style: none;
+  padding: 0;
+}
+
+.detail-list li {
+  margin-bottom: 10px;
+}
+
+.hotel-photo {
+  height: 75px;
+}
+
+.hotel-photo img {
+  width: 100%;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0 0 0 15px;
+  text-transform: uppercase;
+}
+
+.sidebar-menu li {
+  margin-bottom: 12px;
+}
+
+.sidebar-menu a {
+  color: darkslategray;
+  text-decoration: none;
+  min-width: 145px;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.rating {
+  color: gold;
+}
+
+.comments-button {
+  text-align: center;   
+}

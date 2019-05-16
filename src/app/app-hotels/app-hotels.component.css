@@ -1,0 +1,10 @@
+.selected-hotel-info {
+  text-align: center;
+}
+
+.selected-hotel-info img {
+    width: 100%;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+}

@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="row">
+    <div class="col-7">
+      <div class="hotel-info">
+        <h4>{{ hotel?.title }} Hotel</h4>
+        <div class="rating">
+          <mat-icon *ngFor="let i of ' '.repeat(hotel?.stars).split('')"
+            >star</mat-icon
+          >
+        </div>
+        <ul class="detail-list">
+          <li>Address: {{ hotel?.address }}</li>
+          <li>Phone: {{ hotel?.phone }}</li>
+          <li>Description: {{ hotel?.description }}</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-1"></div>
+    <div class="col-4 hotel-photo">
+      <img src="{{ hotel?.picture }}" alt="{{ hotel?.title }} Picture" />
+    </div>
+  </div>
+  <div class="col-8 comments-button">
+    <a mat-stroked-button [routerLink]="['comments']" routerLinkActive="active">
+      Load Comments</a
+    >
+  </div>
+  <router-outlet></router-outlet>
+</div>

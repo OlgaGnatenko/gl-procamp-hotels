@@ -1,0 +1,10 @@
+<div class="col-8">
+  <ul class="comment-list">
+    <li *ngFor="let comment of comments">
+      <span class="author"
+        >{{ comment.author }} on <b>{{ comment.date }}</b></span
+      >
+      <p>"{{ comment.comment }}"</p>
+    </li>
+  </ul>
+</div>

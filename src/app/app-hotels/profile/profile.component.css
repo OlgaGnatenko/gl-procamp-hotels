@@ -1,0 +1,28 @@
+.profile-card {
+  margin: 0 auto;
+  max-width: 400px;
+  background: lightcyan;
+  margin-bottom: 20px;
+}
+
+.profile-body {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  background: #fff;
+}
+
+.profile-body:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 1px;
+  height: 50%;
+  background: #000;
+  transform: translateY(-50%);
+}
+
+.profile-data {
+  display: flex;
+  flex-direction: column;
+}

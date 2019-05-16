@@ -1,0 +1,32 @@
+<mat-card class="fav-card text-center p-0 mb-5">
+  <h3 class="pt-2">Favorite Hotels</h3>
+  <ng-template [ngIf]="favorites?.length" [ngIfElse]="emptyFavorites">
+    <ul class="fav-list">
+      <li class="fav-item" *ngFor="let favorite of favorites">
+        <h5>
+          <a [routerLink]="['/hotel-detail', favorite.id]">{{
+            favorite?.title
+          }}</a>
+        </h5>
+        <div class="rating">
+          <mat-icon *ngFor="let i of ' '.repeat(favorite?.stars).split('')"
+            >star</mat-icon
+          >
+        </div>
+        <button
+          mat-icon-button
+          color="primary"
+          (click)="removeFavorite(favorite)"
+        >
+          <mat-icon aria-label="Remove">delete_forever</mat-icon>
+        </button>
+      </li>
+    </ul>
+  </ng-template>
+</mat-card>
+
+<ng-template #emptyFavorites>
+  <span class="d-block text-primary pt-2 px-5 pb-2"
+    >There are no favorite hotels.
+  </span>
+</ng-template>

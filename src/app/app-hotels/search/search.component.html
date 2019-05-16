@@ -1,0 +1,11 @@
+<form class="example-form">
+  <mat-form-field class="example-full-width">
+    <mat-icon matPrefix class="search-icon">search</mat-icon>
+    <input
+      type="text"
+      placeholder="Search by Hotel Title"
+      matInput
+      (input)="searchHotel($event.target.value)"
+    />
+  </mat-form-field>
+</form>

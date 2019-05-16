@@ -1,0 +1,66 @@
+.example-card {
+  max-width: 400px;
+  min-width: 250px;
+}
+
+.result-list {
+  background-color: lightcyan;
+}
+
+.list {
+  padding: 0 0 10px;
+  margin: 0;
+}
+
+.list > li {
+  padding: 10px 5px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.list p {
+  color: gray;
+}
+
+.list .odd {
+  background-color: lightyellow;
+}
+
+.list > li:hover {
+  background-color: lightskyblue;
+}
+
+.list img {
+  width: 75px;
+  height: 75px;
+}
+
+.hotel-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hotel-desc {
+  padding-right: 10px;
+}
+
+.mat-icon-button {
+  color: #ad1457;
+  margin-top: 15px;
+  outline: 0;
+}
+
+.example-card {
+  margin: 0 auto;
+}
+
+.mat-card-image {
+  max-height: 175px;
+}
+
+.material-icons {
+  font-size: 35px;
+}

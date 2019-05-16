@@ -1,0 +1,17 @@
+<mat-card class="weather-card text-center px-5 mb-5">
+  <h5 *ngIf="hotel">{{ hotel?.address }}</h5>
+  <mat-divider></mat-divider>
+  <div class="weather-body">
+    <div class="weather-icon">
+      <img
+        src="../../../assets/images/{{ hotel?.weather.icon }}.svg"
+        alt="{{ hotel?.weather.icon }}"
+      />
+    </div>
+    <div class="weather-data">
+      <span>Temp.: {{ hotel?.weather.temperature }}&ordm;</span>
+      <hr>
+      <span>Wind: {{ hotel?.weather.wind }} m/s</span>
+    </div>
+  </div>
+</mat-card>
